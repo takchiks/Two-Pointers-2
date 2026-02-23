@@ -11,6 +11,9 @@ public class Sample {
     // Time Complexity : O(n)
     // Space Complexity : O(1)
     // Did this code successfully run on Leetcode : yes
+    // set prev to 10001 and count 1 initially
+    // if count is less than or equal 2 the put the element in at index k
+    // return k
     public int removeDuplicates(int[] nums) {
         int i = 0;
         int k = 0;
